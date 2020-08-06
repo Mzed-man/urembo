@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="nav big center secondary">
+
+    <div class="nav big even secondary">
       <div class="logo">
         <img src="./assets/logo.png">
       </div>
@@ -11,6 +12,31 @@
         <a href="http://" class="menu-item">Navigation 4</a>
       </div>
     </div>
+
+    <div class="notification success">
+      <div class="content">
+        <div class="icon">
+          <img src="./assets/logo.png" alt="">
+        </div>
+        <div class="message">
+          <h3 class="title" >Title for the message</h3>
+          <p class="text">
+            Message content, should be a short text to say briefly what is the matter
+          </p>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="button">First option</button>
+        <button class="button">Second option</button>
+      </div>
+    </div>
+
+    <div>
+      <button class="button yellow">
+        Button ui
+      </button>
+    </div>
+
   </div>
 </template>
 
@@ -21,5 +47,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import './styles/styles.scss'
+  @import './styles/styles.scss';
 </style>
