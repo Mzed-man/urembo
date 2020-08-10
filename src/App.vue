@@ -32,9 +32,69 @@
     </div>
 
     <div>
-      <button class="button yellow">
+      <button class="button violet">
         Button ui
       </button>
+    </div>
+
+    <form action="" class="form">
+      <h1 class="title">
+        Form Title
+      </h1>
+      <div class="field">
+        <label for="">
+          Label Name
+        </label>
+        <input type="text" name="" id="">
+      </div>
+      <div class="field">
+        <label for="">
+          Text area label
+        </label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+
+      <div class="fields">
+
+        <div class="field">
+          <label for="">
+            input 1
+          </label>
+          <input type="text">
+        </div>
+
+        <div class="field">
+          <label for="">
+            Input 2
+          </label>
+          <input type="text">
+        </div>
+
+        <div class="field">
+          <label for="">
+            Input 3
+          </label>
+          <input type="text">
+        </div>
+
+      </div>
+
+    </form>
+
+    <div class="list line wrap vertical">
+      <div class="list-item vertical">
+        <div class="ico">
+          <img src="./assets/logo.png" alt="">
+        </div>
+        <div class="text">
+          Vita est illis semper in fuga uxoresque mercenariae conductae ad tempus ex pacto atque, ut sit species matrimonii, dotis nomine futura coniunx hastam et tabernaculum offert marito, post statum diem si id elegerit discessura, et incredibile est quo ardore apud eos in venerem uterque solvitur sexus.
+        </div>
+        <div class="button">
+          <button class="button primary">
+            Navigate
+          </button>
+        </div>
+      </div>
     </div>
 
   </div>
