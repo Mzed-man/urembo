@@ -1,6 +1,6 @@
 # urembo
 
-> scss framework for inside work for MzedSoft and affiliated partners and/or acquisitions
+> scss library for inside work for MzedSoft and affiliated partners and/or acquisitions
 
 ## Build Setup
 
